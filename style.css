@@ -10,3 +10,14 @@
 .nav-3 {
   text-transform: uppercase;
 }
+.opinion-col {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.opinion-col img {
+  grid-row: span 2;
+}
+.opinion-col div {
+  display: flex;
+}
