@@ -31,11 +31,18 @@
   background: url("https://g.newsweek.com/www/images/logo-n1.svg")
     center/contain no-repeat #f72210;
 }
-.card-header {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-}
 .signup {
   max-height: 280px;
   overflow: hidden;
+}
+.signup-header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.signup-header div {
+  min-height: 40px;
+}
+.small-font {
+  font-size: 0.9rem;
 }
