@@ -12,12 +12,30 @@
 }
 .opinion-col {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
+  font-size: 0.8 rem;
+  height: fit-content;
 }
-.opinion-col img {
-  grid-row: span 2;
+.opinion-col img,
+.opinion-col .right img {
+  width: 100%;
+  align-self: center;
 }
-.opinion-col div {
-  display: flex;
+.opinion-col div p {
+  margin-bottom: 0;
+}
+.opinion-col .card-body {
+  padding: 5px 10px;
+}
+.logo-signup {
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
+    center/contain no-repeat #f72210;
+}
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.signup {
+  max-height: 280px;
+  overflow: hidden;
 }
