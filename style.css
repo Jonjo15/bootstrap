@@ -61,3 +61,20 @@ p {
   min-height: 38vh;
   align-self: stretch;
 }
+.rel {
+  position: relative;
+}
+.rel :nth-child(2) {
+  position: absolute;
+  top: 6%;
+  left: 20%;
+}
+#newsletter-div {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    center center / cover no-repeat;
+}
+li {
+  list-style: none;
+  padding: 0px 5px;
+  cursor: pointer;
+}
